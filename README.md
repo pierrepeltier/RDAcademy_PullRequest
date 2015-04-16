@@ -1,2 +1,2 @@
-# RDAcademy_PullRequest
-Hello word for R&amp;D Academy
+# RD Academy PullRequest
+Demonstrate how pull request works around a simple Hello World program.
