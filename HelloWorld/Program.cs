@@ -10,7 +10,17 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            var lang = args.Length > 0 ? args[0] : "en";
+
+            switch (lang)
+            {
+                case "fr":
+                    Console.WriteLine("Bonjour le monde!");
+                    break;
+                default:
+                    Console.WriteLine("Hello world!");
+                    break;
+            }
 
             // wait that user press a key before exit.
             Console.ReadKey(true);
