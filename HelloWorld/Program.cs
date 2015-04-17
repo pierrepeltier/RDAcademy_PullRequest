@@ -10,7 +10,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world!");
+            Console.WriteLine("Hello world!");
 
             // wait that user press a key before exit.
             Console.ReadKey(true);
