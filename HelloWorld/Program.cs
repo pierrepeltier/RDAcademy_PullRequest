@@ -10,7 +10,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            switch (args[0])
+            var lang = args.Length > 0 ? args[0] : "en";
+
+            switch (lang)
             {
                 case "fr":
                     Console.WriteLine("Bonjour le monde!");
