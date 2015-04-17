@@ -18,7 +18,7 @@ namespace HelloWorld
                     Console.WriteLine("Bonjour le monde!");
                     break;
                 default:
-                    Console.WriteLine("hello world!");
+                    Console.WriteLine("Hello world!");
                     break;
             }
 
